@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication(scanBasePackages ={ "com.nowcoder.community.controller","com.nowcoder.community.service","com.nowcoder.community.dao"})
 public class CommunityApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {//***********
 		SpringApplication.run(CommunityApplication.class, args);
+		System.out.print("ddd");
 	}
 
 }
